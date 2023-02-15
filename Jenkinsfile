@@ -17,6 +17,7 @@ pipeline {
         
         stage('Deploy') {
             steps {
+                helloa
                 echo 'Deployment'
             }
         }
